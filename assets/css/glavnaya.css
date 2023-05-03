@@ -1,0 +1,1307 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Merriweather;
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(/assets/fonts/Merriweather-Regular.ttf);
+    font-display: swap;
+}
+
+.fotoLogo {
+    height: 70px;
+    width: 70px;
+    margin: 0 0 0 10px;
+    object-fit: cover;
+}
+
+.slogan {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    align-items: center;
+}
+
+.site-nav {
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 70px;
+
+}
+
+header {
+    /* position: fixed; */
+    width: 1520px;
+}
+
+.site-nav>a {
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tel {
+    margin: 20px;
+    color: white;
+}
+
+h1 {
+    color: #F5DEB3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* основная картинка и надпись */
+.photo-zaglav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    max-height: 950px;
+    background-image: url(/assets/img/glav.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zaglav {
+    width: 860px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst {
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-weight: normal;
+}
+
+
+/* блок с фото студии  */
+.salonInfa {
+    display: flex;
+    background-color: black;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoSalon {
+    width: 727px;
+    height: 565px;
+    margin: 27px;
+}
+
+.text1 {
+    padding: 80px;
+    color: #F5DEB3;
+    font-size: 30px;
+    float: right;
+    line-height: 1.5;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+.text2 {
+    color: #F5DEB3;
+    font-size: 25px;
+    float: right;
+    line-height: 1.5;
+    padding-left: 50px;
+}
+
+
+/* блок с мастерами */
+
+.mastera {
+    background-color: black;
+}
+
+.oneMaster,
+.twoMaster,
+.threeMaster,
+.fourMaster {
+    width: 326px;
+    height: 326px;
+    object-fit: cover;
+}
+
+.textFI {
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.textM {
+    color: white;
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+.master {
+    display: flex;
+    justify-content: space-around;
+}
+
+.masterr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 326px;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+
+/* слайдеры последние работы */
+.carousel-inner {
+    width: 700px;
+    height: 600px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.carousel {
+    padding: 0 0 15px;
+}
+
+
+/* блок для записи на консультацию */
+h2 {
+    color: #F5DEB3;
+    margin: 13px;
+    margin-right: 20px;
+}
+
+h3 {
+    color: #F5DEB3;
+    margin: 13px;
+}
+
+ul {
+    color: #F5DEB3;
+    margin: 10px;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 2500px;
+    margin: 0;
+}
+
+.konsul {
+    width: 500px;
+    height: 800px;
+    background-color: #F5DEB3;
+    border: #F5DEB3 1px solid;
+    border-radius: 5px;
+    margin: 18px 0 20px 50px;
+}
+
+.konsul_cont {
+    width: 500px;
+    height: 1500px;
+    background-color: #F5DEB3;
+    border: #F5DEB3 1px solid;
+    border-radius: 5px;
+    margin: 18px 0 20px 50px;
+}
+
+.divzag {
+    color: black;
+    text-align: center;
+    font: weight 900px;
+    margin: 15px 0 0 0;
+}
+
+.podzag {
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: #F5DEB3;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.form-file {
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.text-file {
+    color: #717171;
+}
+
+.otpr {
+    margin: auto;
+    width: 460px;
+    border-radius: 5px;
+    border: #F5DEB3;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* КАРТА */
+
+.karta {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* ФУТЕР */
+footer {
+    clear: both;
+    /* position: fixed; */
+}
+
+.foot {
+    list-style: none;
+}
+
+.icon-geo {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-tel {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-vr {
+    width: 30px;
+    height: 30px;
+}
+
+.adres {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+/* БЛОК С ПОРТФОЛИО КАРТИНКАМИ  */
+.foto_portfolio {
+    margin: 0 auto;
+    height: 1540px;
+    padding-left: 10px;
+}
+
+.cal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.foto_port {
+    width: 250px;
+    height: 332px;
+    object-fit: cover;
+    margin: 5px 15px 45px 20px;
+    float: left;
+}
+
+
+/* СТРАНИЦА С ЦЕНОЙ */
+.bloc_price {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.div_price {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.div_rod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_left {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text_right {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.img_price {
+    text-align: center;
+}
+
+.price_img {
+    margin: 0 15px 15px 15px;
+}
+
+.zag_style {
+    color: #F5DEB3;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.style_text {
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+
+/* ПРАЙС */
+.price {
+    color: white;
+    margin: auto;
+    font-size: 20px;
+
+
+}
+
+.price_pr {
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.foto_price {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.price_naz {
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 10px;
+}
+
+.precent {
+    color: white;
+}
+
+#price_id {
+    display: none;
+}
+
+#id_price {
+    display: block;
+}
+
+
+/* СТИЛИ */
+.style {
+    color: black;
+}
+
+.foto_style {
+    display: flex;
+    padding: 10px;
+    height: 244px;
+    width: 244px;
+    object-fit: cover;
+}
+
+
+.title_style {
+    color: #F5DEB3;
+    padding: 10px;
+}
+
+.description_style {
+    color: white;
+    padding: 10px;
+}
+
+.div_style {
+    display: flex;
+}
+
+.btn_style {
+    background-color: #F5DEB3;
+    color: black;
+    border: 1px #F5DEB3 solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+/* КОНТАКТЫ */
+
+.cont_podzag {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.container_cont {
+    margin-left: 38px;
+}
+
+.konsul_cont {
+    width: 500px;
+    height: 800px;
+    background-color: #F5DEB3;
+    border: #F5DEB3 1px solid;
+    border-radius: 5px;
+}
+
+.select_cont {
+    /* width: 460px; */
+    background-color: white;
+    border: #F5DEB3;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.karta_cont {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.naz {
+    color: white;
+}
+
+.cont_infa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .cont {
+    margin-left: 500px;
+
+} */
+
+.name_contact {
+    margin: 0 5px 0 5px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.img_cont {
+    padding: 10px;
+}
+
+
+/* ПОРТФОЛИО */
+.photo_show {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.img_show {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+
+}
+
+.master_img_show {
+    display: flex;
+    justify-content: center;
+}
+
+.show_master_img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.name_show {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    object-fit: cover;
+}
+
+/* СТИЛИ ТАТУ, ВСЕ ФОТО */
+.style_one {
+    display: flex;
+}
+
+.foto_one_style {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.foto_one {
+    object-fit: cover;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+}
+
+.select {
+    width: 460px;
+    background-color: white;
+    border: #F5DEB3;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.p_style {
+    margin: 0;
+}
+
+.master_entries {
+    margin-bottom: 10px;
+}
+
+.p_style_two {
+    margin: 0;
+}
+
+
+@media (min-width: 992px) {
+    .aside {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        order: 1;
+    }
+
+    .main {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        order: 2;
+    }
+}
+
+@media (min-width: 1400px) {
+    .aside {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .main {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+.price_acc {
+    color: black;
+}
+
+.accordion-button {
+    background-color: #F5DEB3;
+}
+
+.ka,
+.he,
+.fy,
+.po,
+.la {
+    background-color: #F5DEB3;
+}
+
+#text{
+    margin-left: 50px;
+}
+.pr_td{
+    margin-left: 50px;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #F5DEB3;
+}
+
+.py-3 {
+    margin: 0 auto;
+}
+
+/* АДАПТИВ ПОД ТЕЛЕФОН */
+@media screen and (max-width: 420px) and (min-width: 320px) {
+    .fotoLogo {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+    }
+
+    .slogan {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .site-nav {
+        background-color: black;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        height: 350px;
+
+    }
+
+    header {
+        width: 150px;
+    }
+
+    .site-nav>a {
+        margin: 9px;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .tel {
+        margin: 9px;
+        color: white;
+    }
+
+    .photo-zaglav {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        background-image: url(/assets/img/glav.jpg);
+
+    }
+
+    .zaglav {
+        width: 373px;
+        height: 465px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+
+    }
+
+    .salonInfa {
+        display: block;
+        background-color: black;
+    }
+
+    .text {
+        display: block;
+        padding: 0;
+
+    }
+
+    .fotoSalon {
+        width: 373px;
+        height: 465px;
+        object-fit: cover;
+        margin: 15px 0;
+    }
+
+    .text1 {
+        color: #F5DEB3;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .text2 {
+        color: #F5DEB3;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    h1 {
+        color: #F5DEB3;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .mastera {
+        background-color: black;
+    }
+
+    .oneMaster,
+    .twoMaster,
+    .threeMaster,
+    .fourMaster {
+        width: 226px;
+        height: 226px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textFI {
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .textM {
+        color: white;
+        text-align: center;
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .master {
+        display: block;
+        justify-content: space-around;
+    }
+
+    .masterr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 326px;
+    }
+
+    .link {
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        color: white;
+    }
+
+    .carousel-inner {
+        width: 375px;
+        height: 370px;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .carousel {
+        padding: 0 0 15px;
+    }
+
+    h2 {
+        color: #F5DEB3;
+        font-size: 18px;
+    }
+
+    h3 {
+        color: #F5DEB3;
+        margin: 13px;
+        font-size: 18px;
+    }
+
+    ul {
+        color: #F5DEB3;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    li {
+        list-style-type: circle;
+    }
+
+    .container {
+        display: block;
+        justify-content: space-around;
+        width: 340px;
+        margin: 0;
+    }
+
+    .konsul {
+        width: 340px;
+        height: 800px;
+        background-color: #F5DEB3;
+        border: #F5DEB3 1px solid;
+        border-radius: 5px;
+        margin: 0 0 20px 10px;
+    }
+
+    .konsul_cont {
+        width: 340px;
+        height: 1500px;
+        background-color: #F5DEB3;
+        border: #F5DEB3 1px solid;
+        border-radius: 5px;
+    }
+
+    .select {
+        width: 319px;
+        background-color: white;
+        border: #F5DEB3;
+        border-radius: 5px;
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .divzag {
+        color: black;
+        text-align: center;
+        font: weight 900px;
+        margin: 15px 0 0 0;
+    }
+
+    .podzag {
+        color: black;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        border: #F5DEB3;
+        border-radius: 5px;
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .form-file {
+        background-color: white;
+        border-radius: 5px;
+        padding: 8px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .text-file {
+        color: #717171;
+    }
+
+    .otpr {
+        margin: auto;
+        width: 323px;
+        border-radius: 5px;
+        border: #F5DEB3;
+        padding: 8px;
+        color: white;
+        background-color: black;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .karta {
+        display: block;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    iframe {
+        width: 360px;
+        height: 200px;
+        padding-left: 20px;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    .foot {
+        list-style: none;
+    }
+
+    .icon-geo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-tel {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-vr {
+        width: 20px;
+        height: 20px;
+    }
+
+    .adres {
+        display: block;
+        justify-content: space-around;
+        color: white;
+    }
+
+    .foto_portfolio {
+        margin: 0 auto;
+        height: 1540px;
+        padding-left: 10px;
+    }
+
+    .cal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .foto_port {
+        width: 250px;
+        height: 332px;
+        object-fit: cover;
+        margin: 5px 15px 45px 20px;
+        float: left;
+    }
+
+    .bloc_price {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .div_price {
+        display: block;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .div_rod {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_left {
+        padding-left: 0px;
+        display: block;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .text_right {
+        display: block;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .img_price {
+        text-align: center;
+    }
+
+    .price_img {
+        margin: 0 15px 15px 15px;
+    }
+
+    .zag_style {
+        color: #F5DEB3;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 0 15px;
+    }
+
+    .style_text {
+        color: white;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .price {
+        color: white;
+        margin: auto;
+        font-size: 15px;
+    }
+
+    .price_pr {
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .foto_price {
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .price_naz {
+        color: white;
+        padding: 15px;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    .precent {
+        color: white;
+    }
+
+    #price_id {
+        display: none;
+    }
+
+    #id_price {
+        display: block;
+    }
+
+    .style {
+        color: black;
+    }
+
+    .foto_style {
+        display: block;
+        padding: 10px;
+        height: 244px;
+        width: 244px;
+        object-fit: cover;
+    }
+
+    .title_style {
+        color: #F5DEB3;
+        padding: 10px;
+    }
+
+    .description_style {
+        color: white;
+        padding: 10px;
+    }
+
+    .div_style {
+        display: block;
+    }
+
+    .btn_style {
+        background-color: #F5DEB3;
+        color: black;
+        border: 1px #F5DEB3 solid;
+        border-radius: 10px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .cont_podzag {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .container_cont {
+        display: block;
+    }
+
+    .konsul_cont {
+        width: 350px;
+        height: 800px;
+        background-color: #F5DEB3;
+        border: #F5DEB3 1px solid;
+        border-radius: 5px;
+        margin-left: -25px;
+    }
+
+    .select_cont {
+        background-color: white;
+        border: #F5DEB3;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .karta_cont {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .naz {
+        color: white;
+        padding-left: 15px;
+    }
+
+    .cont_infa {
+        display: block;
+    }
+
+    .cont {
+        margin-right: 15px;
+    }
+
+    .name_contact {
+        padding-bottom: 20px;
+        font-size: 23px;
+        padding-left: 10px;
+    }
+
+    .img_cont {
+        padding: 10px;
+    }
+
+    .photo_show {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .img_show {
+        object-fit: cover;
+        width: 250px;
+        height: 350px;
+    }
+
+    .master_img_show {
+        display: flex;
+        justify-content: center;
+    }
+
+    .show_master_img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .name_show {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        object-fit: cover;
+    }
+
+    .style_one {
+        display: block;
+    }
+
+    .foto_one_style {
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .foto_one {
+        object-fit: cover;
+        width: 250px;
+        height: 350px;
+        padding: 20px;
+    }
+
+
+    .p_style {
+        margin: 0;
+    }
+
+    .master_entries {
+        margin-bottom: 10px;
+    }
+
+    .p_style_two {
+        margin: 0;
+    }
+
+
+    .price_acc {
+        color: black;
+    }
+
+    .accordion-button {
+        background-color: #F5DEB3;
+    }
+
+    .ka,
+    .he,
+    .fy,
+    .po,
+    .la {
+        background-color: #F5DEB3;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: black;
+        background-color: #F5DEB3;
+    }
+
+    .py-3 {
+        margin: 0 auto;
+    }
+}
